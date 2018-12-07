@@ -1,6 +1,6 @@
 import cv2
 from matplotlib import pyplot as plt
-
+import numpy as np
 
 image = cv2.imread("spidermorales.jpg",0)
 plt.hist(image.ravel(),256,[0,256])
