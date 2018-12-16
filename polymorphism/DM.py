@@ -1,7 +1,7 @@
 from Duck import *
 from Mouse import *
 
-def describe(object):
+def describe(object): #Создаем функцию и вызываем из классов методы,если они действительно есть в классе,то он вызовутся,а если нет,то выдаст ошибку
 	object.talk()
 	object.coat()
 
